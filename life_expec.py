@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
-import scikit-learn
+import sklearn
 
 # Load the saved model and scaler
 # with open("life_expectancy_model.pkl", "rb") as model_file:
