@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load the saved model and scaler
-with open(r"C:\Users\dell\Desktop\streamlit apps\life_expectancy_model.pkl", "rb") as model_file:
+with open("life_expectancy_model.pkl", "rb") as model_file:
     model = pickle.load(model_file)
 
 # with open(r"C:\Users\dell\Desktop\Jup\scaler.pkl", "rb") as scaler_file:
